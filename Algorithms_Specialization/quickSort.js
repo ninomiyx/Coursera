@@ -10,7 +10,7 @@ async function readText(filename) {
       } else {
         resolve(data);
       }
-    };
+    });
   });
 }
 
